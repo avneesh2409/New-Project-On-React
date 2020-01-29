@@ -28,7 +28,7 @@ export default class Login extends Component {
                         <input type="password" name="password" placeholder="Password" onChange={this.changeHandler} />
                     </div>
                     <div className="button-panel">
-                        <input type="submit" className="button" title="Log In" name="login" value="Login" />
+                        <input type="submit" className="button" title="Log In" />
                     </div>
                 </div>
                 <div className="reminder">
