@@ -4,9 +4,9 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;}
-
-
+  background-size: cover;
+  background:linear-gradient(#001f3f,#001f3f,#001f3f);
+}
 
 .form-wrapper {
 width:300px;
@@ -15,7 +15,7 @@ height:370px;
   top: 60%;
   left: 48%;
   margin: -184px 0px 0px -155px;
-  background: rgba(0,0,0,0.27);
+  background:   rgba(100,100,100,0.27);
   padding: 15px 25px;
   border-radius: 5px;
   box-shadow: 0px 1px 0px rgba(0,0,0,0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
