@@ -1,0 +1,221 @@
+.title {
+    display:inline-block;
+    position:absolute;
+    top:50%;
+    left:40%;
+    border-bottom:1px dotted #666;
+    text-align:left;
+
+}
+.title1 {
+    display:inline-block;
+    position:absolute;
+    top:60%;
+    left:47%;
+    border-bottom:1px dotted #666;
+    text-align:left;
+
+}
+
+.title .right {
+    min-width:200px; 
+    top:50%;
+    left:100%;
+    margin-left:20px;
+    transform:translate(0, -30%);
+    padding:10px 20px;
+    color:#000000;
+    background-color:#DDDDDD;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+}
+
+.title:hover .right {
+    display:block;
+}
+
+.title .right i {
+    position:absolute;
+    top:30%;
+    right:100%;
+    margin-top:-30px;
+    width:30px;
+    height:60px;
+    overflow:hidden;
+}
+
+.title .right i::after {
+    content:'';
+    position:absolute;
+    width:30px;
+    height:30px;
+    left:0;
+    top:50%;
+    transform:translate(50%,-50%) rotate(-45deg);
+    background-color:#DDDDDD;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}   
+
+
+
+
+
+
+
+.title1 .top {
+    min-width:200px; 
+    top:-20px;
+    left:50%;
+    transform:translate(-30%, -100%);
+    padding:10px 20px;
+    color:#000000;
+    background-color:#DDDDDD;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+}
+
+.title1:hover .top {
+    display:block;
+}
+
+.title1 .top i {
+    position:absolute;
+    top:100%;
+    left:30%;
+    margin-left:-30px;
+    width:60px;
+    height:30px;
+    overflow:hidden;
+}
+
+.title1 .top i::after {
+    content:'';
+    position:absolute;
+    width:30px;
+    height:30px;
+    left:50%;
+    transform:translate(-50%,-50%) rotate(45deg);
+    background-color:#DDDDDD;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+
+
+
+
+.title2 {
+    display:inline-block;
+    position:absolute;
+    top:40%;
+    left:46%;
+    border-bottom:1px dotted #666;
+    text-align:left;
+}
+
+.title2 .bottom {
+    min-width:200px; 
+    top:40px;
+    left:50%;
+    transform:translate(-30%, 0);
+    padding:10px 20px;
+    color:#000000;
+    background-color:#DDDDDD;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+}
+
+.title2:hover .bottom {
+    display:block;
+}
+
+.title2 .bottom i {
+    position:absolute;
+    bottom:100%;
+    left:30%;
+    margin-left:-30px;
+    width:60px;
+    height:30px;
+    overflow:hidden;
+}
+
+.title2 .bottom i::after {
+    content:'';
+    position:absolute;
+    width:30px;
+    height:30px;
+    left:50%;
+    transform:translate(-50%,50%) rotate(45deg);
+    background-color:#DDDDDD;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+
+.title3 {
+    display:inline-block;
+    position:absolute;
+    top:50%;
+    right:40%;
+    border-bottom:1px dotted #666;
+    text-align:left;
+}
+
+.title3 .left {
+    min-width:200px; 
+    top:50%;
+    right:100%;
+    margin-right:20px;
+    transform:translate(0, -30%);
+    padding:10px 20px;
+    color:#000000;
+    background-color:#DDDDDD;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+}
+
+.title3:hover .left {
+    display:block;
+}
+
+.title3 .left i {
+    position:absolute;
+    top:30%;
+    left:100%;
+    margin-top:-30px;
+    width:30px;
+    height:60px;
+    overflow:hidden;
+}
+
+.title3 .left i::after {
+    content:'';
+    position:absolute;
+    width:30px;
+    height:30px;
+    left:0;
+    top:50%;
+    transform:translate(-50%,-50%) rotate(-45deg);
+    background-color:#DDDDDD;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}

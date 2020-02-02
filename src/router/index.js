@@ -2,7 +2,8 @@ import React from "react";
 import {
     BrowserRouter,
     Switch,
-    Route
+    Route,
+    Link
 } from "react-router-dom";
 import Register from '../components/register'
 import Login from '../components/login'
@@ -12,6 +13,18 @@ import DisplayUsers from '../components/displayUsers'
 const Router = () => {
     return (
         <BrowserRouter>
+            <div>
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav">
+                            <li><Link to='/'>Home</Link></li>
+                            <li><Link to='/login'>Login</Link></li>
+                            <li><Link to='/register'>Register</Link></li>
+                            <li><Link to='/showusers'>displayUsers</Link></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/login" component={Login} />
