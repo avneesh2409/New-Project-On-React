@@ -9,6 +9,7 @@ import Register from '../components/register'
 import Login from '../components/login'
 import Home from '../components/home'
 import DisplayUsers from '../components/displayUsers'
+import DisplayTodos from '../components/DisplayTodos'
 
 const Router = () => {
     return (
@@ -21,6 +22,8 @@ const Router = () => {
                             <li><Link to='/login'>Login</Link></li>
                             <li><Link to='/register'>Register</Link></li>
                             <li><Link to='/showusers'>displayUsers</Link></li>
+                            <li><Link to='/showtodos'>displayTodos</Link></li>
+                            
                         </ul>
                     </div>
                 </nav>
@@ -30,6 +33,7 @@ const Router = () => {
                 <Route exact path="/login" component={Login} />
                 <Route exact path="/register" component={Register} />
                 <Route exact path="/showusers" component={DisplayUsers} />
+                <Route exact path="/showtodos" component={DisplayTodos} />
             </Switch>
         </BrowserRouter>
     );

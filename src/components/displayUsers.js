@@ -16,7 +16,6 @@ class DisplayUsers extends Component {
     }
     getUsers = async (url, options) => {
         const response = await fetch(url, options).then(res => { return res.json() }).catch(err => { console.log(err) })
-        console.log(response.data)
         if (response) {
             let data = response.data.map((el, i) => {
                 return (
@@ -41,7 +40,8 @@ class DisplayUsers extends Component {
         }
     }
     render() {
-        return (
+        if(this.state.data){
+            return (
             <div className='jumbotron'>
                 <table className='table table-hovered'>
                     <tr>
@@ -51,8 +51,12 @@ class DisplayUsers extends Component {
                     {this.state.data}
                 </table>
             </div>
-
         )
+        }
+        else{
+            return <p>users not found</p>
+        }
+        
     }
 
 }
